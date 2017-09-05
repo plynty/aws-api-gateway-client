@@ -19,14 +19,13 @@
   "main": "dest/apigClient.js",
   "scripts": {
     "transpile": "babel src -d dist/",
-    "prepare": "npm run transpile",
     "prepublish": "npm run lint && npm run transpile",
     "lint": "node_modules/eslint/bin/eslint.js src lib *.js",
     "test": "npm run lint && nyc --reporter=text ava",
     "test:watch": "ava --watch"
   },
   "files": [
-    "src"
+    "dest"
   ],
   "ava": {
     "require": [
