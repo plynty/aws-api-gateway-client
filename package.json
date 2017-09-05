@@ -1,7 +1,7 @@
 {
   "name": "aws-api-gateway-client",
   "version": "0.2.9",
-  "description": "A moduel for AWS API Gateway client",
+  "description": "A module for AWS API Gateway client",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kndt84/aws-api-gateway-client.git"
@@ -25,7 +25,7 @@
     "test:watch": "ava --watch"
   },
   "files": [
-    "dest"
+    "dist"
   ],
   "ava": {
     "require": [

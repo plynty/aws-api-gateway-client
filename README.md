@@ -1,6 +1,7 @@
 [![dependencies Status](https://david-dm.org/kndt84/aws-api-gateway-client/status.svg)](https://david-dm.org/kndt84/aws-api-gateway-client)
 
-# Overview
+# Overview -- plynty
+_This is a plynty-specific fork.  The code is not modified, but the transpile script has been run, and the resulting **dist** files are included.  This allows it to be imported into the plynty-api without additional preparation steps._
 A module for AWS API gateway client based on auto-generated JavaScript SDK. This module can be used not only for Node.js but for front-end. In addition, it generalizes original SDK's endpoint specific methods.
 
 Reference:  
@@ -11,7 +12,9 @@ For the JavaScript SDK to work your APIs need to support CORS. The Amazon API Ga
 
 # Install
 ```
-npm install aws-api-gateway-client
+_plynty-specific:_
+
+npm install git+https://github.com/plynty/aws-api-gateway-client.git#dist
 ```
 
 # Use the SDK in your project
