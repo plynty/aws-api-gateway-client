@@ -16,7 +16,7 @@
     "url": "https://github.com/kndt84/aws-api-gateway-client/issues"
   },
   "homepage": "https://github.com/kndt84/aws-api-gateway-client#readme",
-  "main": "dest/apigClient.js",
+  "main": "dist/apigClient.js",
   "scripts": {
     "transpile": "babel src -d dist/",
     "prepublish": "npm run lint && npm run transpile",
